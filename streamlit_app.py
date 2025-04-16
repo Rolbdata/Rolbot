@@ -2,8 +2,11 @@ import streamlit as st
 from openai import OpenAI
 import tiktoken
 
+1 == "sk-proj-E_lerQ9WnMEHjxp2cl6c3oBsa_KwY_CHGDFBbHwagpK6lZYY5j6OS1mebHio27rHayMzGVK6RNT3BlbkFJwtD5ZmGe_"
+2 == "VTnA6-5o6BXOHEe3wdg8k-ietTWv3AFh0J6qtPyEH3wfyiJFSGj--LJwSjgbO1mMA"
+
 # Imposta la tua API key (occhio a non condividerla pubblicamente!)
-OPENAI_API_KEY = "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"  # Sostituisci con la tua vera API Key
+OPENAI_API_KEY = 1 + 2  # Sostituisci con la tua vera API Key
 
 # Carica le informazioni dal file
 def load_personal_info(file_path="informazioni_rolando.txt"):
